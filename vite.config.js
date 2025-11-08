@@ -12,7 +12,8 @@ export default defineConfig({
     outDir: "dist",
     rollupOptions: {
       input: {
-        main: resolve(__dirname, "./src/main_page/index.html"), // ✅ หน้าแรกของเว็บ
+        //main: resolve(__dirname, "./src/main_page/index.html"), // ✅ หน้าแรกของเว็บ
+        main: resolve(__dirname, "./index.html")
       },
     },
   },
