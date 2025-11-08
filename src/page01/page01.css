@@ -1,3 +1,26 @@
+ html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
 body{
-    background-color: gold;
+  background-color: blueviolet;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bt-page{
+    width: 90px;
+    height: 30px;
+    background-color: white;
+    border: none;
+    box-shadow: 2px 2px 2px rgb(211, 211, 211);
+    transition: 1s ease;
+}
+.bt-page:hover{
+  background-color: orange;
 }
